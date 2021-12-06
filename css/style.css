@@ -1,0 +1,165 @@
+body {
+  text-align: center;
+  font-family: 'Gemunu Libre', sans-serif;
+  background-image: linear-gradient(red,orange,yellow,green,blue,violet);
+  background-size: contain;
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
+@media all and (min-width: 320px) and (max-width: 780px){
+  body {
+    background-image: linear-gradient(black,white);
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+    background-size: contain;
+    background-repeat: repeat;
+    background-attachment: scroll;
+  }
+}
+
+#Process {
+  color: yellow;
+}
+Table {
+  width: 100%;
+  background-color: lightgray;
+}
+@media all and (min-width: 320px) and (max-width: 780px){
+  Table {
+    width: 100%;
+    background-color: white;
+  }
+}
+
+}
+tr {
+  height: 10vh;
+
+}
+td{
+  border: red 2px solid;
+  }
+header {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+}
+@media all and (min-width: 320px) and (max-width: 780px){
+  header {
+    background-color: darkgray;
+    padding: 10px;
+    text-align: center;
+  }
+}
+nav > ul > li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  p.clear
+  clear: left;
+  p.clear
+  clear: right;
+}
+
+nav > ul > li > a {
+  font-size: 2em;
+  }
+
+  a{
+    text-decoration: none;
+    transition: 2s;
+  }
+  a:link {
+    color: green;
+    }
+
+  a:visited {
+    color: black;
+    }
+
+  a:hover {
+    text-decoration: underline;
+    color: orange;
+    background-color: blue;
+  }
+
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: darkgray;
+}
+
+p:first-letter {
+  font-size: 2em;
+}
+
+P:first-line {
+  font-weight: bold;
+  color: red;
+  }
+/* This is about the creator */
+.about {
+  float: left;
+  position: static;
+  width: 400px;
+  height: 700px;
+  border: 2px black solid;
+  padding: 50px;
+  margin: 25px;
+  box-shadow: 5px 10px red;
+  background-color: rgba(255,0,0,0.5);
+  box-sizing: border-box;
+  z-index: auto;
+  visibility: visible;
+}
+
+
+
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+a {
+  text-decoration: none;
+}
+
+i {
+  color: orange;
+  transform: scale(1,1);
+
+}
+
+form {
+  width: 85%;
+  padding: 2%;
+  margin: 0 auto;
+  background-color: lightgray;
+
+}
+
+.newsletter {
+  background-color: white;
+  height: 25vh
+}
+
+.emailbox {
+  padding: 2%;
+  width: 65%;
+  margin-right: 5%;
+}
+
+.submitbutton {
+  padding: 2%;
+  width: 15%;
+}
